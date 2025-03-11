@@ -25,7 +25,7 @@ export const navLinks = [
   
   {
     text: "Ingresar",
-    link: "/sign-in",
+    link: "#",
     styles: "btn btn-primary px-6 py-2 rounded-lg"
   },
 ];
