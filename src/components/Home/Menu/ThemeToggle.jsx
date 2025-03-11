@@ -1,25 +1,36 @@
 "use client";
 
-// React imports
 import { useState, useEffect } from "react";
-
-// Icons
 import { MoonIcon, SunIcon } from "../../Icons";
 
 const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-  };
-
   useEffect(() => {
-    if (isDarkMode) {
+    const savedTheme = localStorage.getItem("theme");
+    const initialTheme = savedTheme === "dark";
+    setIsDarkMode(initialTheme);
+
+    if (initialTheme) {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
-  }, [isDarkMode]);
+  }, []);
+
+  const toggleTheme = () => {
+    const newTheme = !isDarkMode;
+    
+    setIsDarkMode(newTheme);
+
+    if (newTheme) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+
+    localStorage.setItem("theme", newTheme ? "dark" : "light");
+  };
 
   return (
     <div className="flex items-center gap-2">
