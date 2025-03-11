@@ -2,7 +2,7 @@ import React from "react";
 
 const SubHeader = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-24">
+    <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-24">
       <div className="p-8 bg-white dark:bg-[#24303f] rounded-lg shadow-lg transform transition-all duration-300 hover:shadow-xl hover:bg-[#0948730d] hover:bg-opacity-5 dark:hover:bg-[#0948731a] dark:hover:bg-opacity-10">
         <div className="text-[#094873] text-4xl mb-6 transform transition-transform duration-300 group-hover:scale-110">
           <i className="bi-graph-up-arrow"></i>
