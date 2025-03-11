@@ -1,9 +1,9 @@
 const Header = () => {
   return (
     <header className="container mx-auto px-6 md:px-8 h-svh">
-      <div className="flex justify-center items-center min-h-[60%]">
-        <div className="max-w-[800px] mx-auto text-center">
-          <h1 className="text-[#094873] text-4xl sm:text-5xl md:text-6xl font-[600] mb-12">
+      <div className="flex justify-center items-center min-h-[70%]">
+        <div className="max-w-[800px] mx-auto text-center md:space-y-12 space-y-4">
+          <h1 className="text-[#094873] text-4xl sm:text-5xl md:text-6xl font-[600]">
             ¡Bienvenidos a DC-3 Seguro!
           </h1>
 
@@ -11,6 +11,10 @@ const Header = () => {
             La manera más fácil y rápida de generar tus constancias de
             habilidades (DC-3).
           </h4>
+
+          <div className="flex flex-col items-center justify-center md:text-4xl sm:text-3xl text-2xl font-[600] space-y-4">
+            <h3 className="md:py-4 py-0">DC-3 Seguro es:</h3>
+          </div>
         </div>
       </div>
     </header>

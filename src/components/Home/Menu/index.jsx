@@ -11,7 +11,7 @@ import LogoDark from "@/public/logos/logo-dark.png";
 
 const Menu = () => {
   return (
-    <nav className="flex justify-between md:px-6 shadow-sm dark:bg-[#24303f] px-11 py-4">
+    <nav className="flex justify-between shadow-sm dark:bg-[#24303f] md:px-6 2xl:px-11 p-4">
       <div>
         <Image
           className="w-32 hidden dark:block"
@@ -22,7 +22,7 @@ const Menu = () => {
         <Image className="w-32 dark:hidden" src={LogoLight} alt="Logo Light" />
       </div>
 
-      <ul className="flex items-center gap-8">
+      <ul className="md:flex hidden items-center gap-8">
         {navLinks?.map((navLink) => (
           <li className={navLink?.styles} key={navLink?.link}>
             <Link href={navLink?.link}>{navLink?.text}</Link>
