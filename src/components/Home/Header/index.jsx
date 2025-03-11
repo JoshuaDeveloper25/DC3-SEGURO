@@ -2,7 +2,7 @@ import SubHeader from "./SubHeader";
 
 const Header = () => {
   return (
-    <header className="container mx-auto px-6 md:px-8 py-36">
+    <header className="container mx-auto px-6 md:px-8 py-36 mt-24 mb-16">
       <div className="flex justify-center items-center">
         <div className="max-w-[800px] mx-auto text-center md:space-y-12 space-y-4">
           <h1 className="text-[#094873] text-4xl sm:text-5xl md:text-6xl font-[600]">
