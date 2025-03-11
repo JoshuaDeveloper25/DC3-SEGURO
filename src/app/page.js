@@ -1,7 +1,11 @@
+import Menu from "@/src/components/Home/Menu";
+
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <>
+      <Menu />
+    </>
+  );
+};
 
-export default page
+export default page;

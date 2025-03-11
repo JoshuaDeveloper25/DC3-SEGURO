@@ -1,5 +1,10 @@
 @import "tailwindcss";
+@layer components;
 
+/* Custom variant for dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Colors to use it in our css file */
 :root {
   --color-primary-1: #042b3b;
   --color-primary-2: #87d5ed;
@@ -11,11 +16,10 @@
   --color-primary-8: #1e51b3;
   --color-primary-9: #113e4f;
   --color-primary-10: #10445c;
-
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-white: #ffffff;
 }
 
+/* This for use colors in files jsx and html (since we're using tailwind 4) */
 @theme inline {
   --color-primary-1: var(--color-primary-1);
   --color-primary-2: var(--color-primary-2);
@@ -27,19 +31,32 @@
   --color-primary-8: var(--color-primary-8);
   --color-primary-9: var(--color-primary-9);
   --color-primary-10: var(--color-primary-10);
-
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-primary-10: var(--color-primary-10);
+  --color-white: var(--color-white);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Components to use in our app */
+@layer components {
+  .btn {
+    background: transparent;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+  }
+
+  .btn-primary {
+    background: var(--color-primary-1);
+    color: var(--color-white);
+
+    &:hover {
+      opacity: 0.9;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
+/* Dark colors for containers */
+.dark\:bg-boxdark:is(.dark *) {
+  background-color: rgb(36 48 63 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 1;
 }
