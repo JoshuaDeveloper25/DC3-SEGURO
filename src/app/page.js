@@ -2,6 +2,7 @@ import Menu from "@/src/components/Home/Menu";
 import Header from "../components/Home/Header";
 import Advantages from "../components/Home/Advantages";
 import Prices from "../components/Home/Prices";
+import Contact from "../components/Home/Contact";
 
 const page = () => {
   return (
@@ -13,6 +14,8 @@ const page = () => {
       <Advantages />
 
       <Prices />
+
+      <Contact />
     </>
   );
 };
