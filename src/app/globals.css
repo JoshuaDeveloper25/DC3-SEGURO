@@ -11,6 +11,21 @@ body {
   color: #64748b;
 }
 
+/* Typewriter styles */
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.Typewriter__cursor {
+  animation: blink 1s steps(2, start) infinite;
+}
+
 /* Custom variant for dark mode */
 @custom-variant dark (&:where(.dark, .dark *));
 

@@ -202,3 +202,9 @@ export const faqs = [
     ],
   },
 ];
+
+export const appKeys = [
+  "Fácil de usar",
+  "Rápido y eficiente",
+  "Tu solución confiable",
+];

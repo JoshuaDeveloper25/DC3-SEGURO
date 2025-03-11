@@ -1,3 +1,5 @@
+import { appKeys } from "@/src/data/dataHome";
+import Typewriter from "./TypeWriter";
 import SubHeader from "./SubHeader";
 
 const Header = () => {
@@ -16,6 +18,10 @@ const Header = () => {
 
           <div className="flex flex-col items-center justify-center md:text-4xl sm:text-3xl text-2xl font-[600] space-y-4">
             <h3 className="md:py-4 py-0">DC-3 Seguro es:</h3>
+
+            <div className="h-24 flex items-center justify-center">
+              <Typewriter phrases={appKeys} delay={100} loop={true} />
+            </div>
           </div>
         </div>
       </div>
