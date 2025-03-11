@@ -102,3 +102,57 @@ export const advantages = [
       "Contamos con un periodo de acompañamiento para que la adaptación sea fluida.",
   },
 ];
+
+export const prices = [
+  {
+    title: "Prueba",
+    price: 99.99,
+    details: [
+      "Hasta 10 constancias",
+      "Constancias Express",
+      "Personalización",
+      "Código QR",
+      "Soporte",
+      "¡Para aquellos que van empezando!",
+    ],
+  },
+
+  {
+    title: "Entrante",
+    price: 379.99,
+    details: [
+      "Hasta 50 constancias",
+      "Constancias Express",
+      "Personalización",
+      "Código QR",
+      "Soporte",
+      "¡La compra popular a un super precio!",
+    ],
+  },
+
+  {
+    title: "Profesional",
+    price: 699.99,
+    details: [
+      "Hasta 100 constancias",
+      "Constancias Express",
+      "Personalización",
+      "Código QR",
+      "Soporte",
+      "¡Ahorras hasta un 30% en tus folios!",
+    ],
+  },
+
+  {
+    title: "Empresarial",
+    price: "2,999.99",
+    details: [
+      "Hasta 500 constancias",
+      "Constancias Express",
+      "Personalización",
+      "Código QR",
+      "Soporte con prioridad",
+      "¡Para todo tipo de empresa o negocio!",
+    ],
+  },
+];

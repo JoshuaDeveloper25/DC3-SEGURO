@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @layer components;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Satoshi, sans-serif;
   background-color: #f1f5f9;
