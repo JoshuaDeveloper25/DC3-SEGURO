@@ -1,4 +1,4 @@
-import SubHeader from "../SubHeader";
+import SubHeader from "./SubHeader";
 
 const Header = () => {
   return (
