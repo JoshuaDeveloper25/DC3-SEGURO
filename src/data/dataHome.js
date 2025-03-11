@@ -30,7 +30,7 @@ export const navLinks = [
   },
 ];
 
-export const definitionsPage = [
+export const definitionsApp = [
   {
     icon: <i className="bi-graph-up-arrow"></i>,
     title: "Mayor Productividad",
@@ -55,7 +55,50 @@ export const definitionsPage = [
   {
     icon: <i className="bi bi-qr-code"></i>,
     title: "Constancias Protegidas",
+    description: "Cada constancia incluye código único y QR para verificación.",
+  },
+];
+
+export const advantages = [
+  {
+    icon: <i className="bi-speedometer2"></i>,
+    title: "Fácil de usar",
     description:
-      "Cada constancia incluye código único y QR para verificación.",
+      "Uno de los objetivos principales de DC3 Seguro es que su utilización sea lo más simple posible.",
+  },
+
+  {
+    icon: <i className="bi-file-earmark-text"></i>,
+    title: "Olvídate de molestos archivos",
+    description:
+      "¡Deja atrás los engorrosos archivos de Word y Excel para generar tus constancias!",
+  },
+
+  {
+    icon: <i className="bi-graph-up"></i>,
+    title: "Información histórica",
+    description:
+      "Podrás consultar cualquier constancia de habilidad (DC-3) que hayas generado en el ultimo año.",
+  },
+
+  {
+    icon: <i className="bi-headset"></i>,
+    title: "Soporte Técnico",
+    description:
+      "Toda duda será solucionada por uno de nuestros asesores, en un mínimo de tiempo.",
+  },
+
+  {
+    icon: <i className="bi-palette"></i>,
+    title: "Personalización",
+    description:
+      "Incluye tu logo, el de la empresa capacitada, firma del instructor y código QR.",
+  },
+
+  {
+    icon: <i className="bi-people-fill"></i>,
+    title: "Acompañamiento",
+    description:
+      "Contamos con un periodo de acompañamiento para que la adaptación sea fluida.",
   },
 ];
