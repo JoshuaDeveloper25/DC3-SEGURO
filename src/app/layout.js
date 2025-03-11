@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
       <body
-        className={`${InterFont.className} antialiased`}
+        className={`${InterFont.className} antialiased dark:bg-[#1a222c] dark:text-[#aeb7c0]`}
       >
         {children}
       </body>

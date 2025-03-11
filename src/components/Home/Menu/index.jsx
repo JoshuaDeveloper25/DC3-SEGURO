@@ -1,4 +1,4 @@
-import { navLinks } from "@/src/data/dataRegister";
+import { navLinks } from "@/src/data/dataHome";
 import ThemeToggle from "./ThemeToggle";
 
 // React imports
@@ -11,7 +11,7 @@ import LogoDark from "@/public/logos/logo-dark.png";
 
 const Menu = () => {
   return (
-    <nav className="flex justify-between md:px-6 shadow-sm dark:bg-boxdark 2xl:px-11 py-4 ">
+    <nav className="flex justify-between md:px-6 shadow-sm dark:bg-[#24303f] px-11 py-4">
       <div>
         <Image
           className="w-32 hidden dark:block"

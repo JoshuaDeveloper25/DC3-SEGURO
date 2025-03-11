@@ -38,35 +38,10 @@
 /* Components to use in our app */
 @layer components {
   .btn {
-    background: transparent;
-    display: inline-block;
-    text-align: center;
-    cursor: pointer;
-    border: 0;
+    @apply bg-transparent inline-block text-center cursor-pointer border-0;
   }
 
   .btn-primary {
-    background: var(--color-primary-1);
-    color: var(--color-white);
-
-    &:hover {
-      opacity: 0.9;
-    }
+    @apply bg-[#094873] text-white;
   }
-}
-
-/* Dark colors for containers */
-.dark\:bg-boxdark:is(.dark *) {
-  background-color: rgb(36 48 63 / var(--tw-bg-opacity));
-  --tw-bg-opacity: 1;
-}
-
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(9 72 115 / var(--tw-bg-opacity));
-}
-
-.bg-stroke {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity))
 }
