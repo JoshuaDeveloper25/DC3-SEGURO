@@ -156,3 +156,49 @@ export const prices = [
     ],
   },
 ];
+
+export const faqs = [
+  {
+    question:
+      "¿Qué beneficios ofrece la automatización de constancias de habilidad (DC-3)?",
+    answers: [
+      "Ahorro de tiempo: Genera constancias en cuestión de minutos.",
+      "Reducción de errores: La automatización minimiza riesgos de inconsistencias o errores de formato.",
+      "Cumplimiento normativo: Asegura que las constancias cumplan con los estándares de la STPS.",
+      "Seguridad: Las constancias incluyen autenticación digital y respaldo en la nube.",
+      "Costo efectivo: Optimiza recursos administrativos y permite precios competitivos.",
+    ],
+  },
+
+  {
+    question:
+      "¿Es posible personalizar las constancias con el logotipo de mi empresa?",
+    answers: [
+      "Sí, la plataforma permite incluir el logotipo de tu empresa en las constancias. Esto le otorga un toque profesional y personalizado, adaptado a las necesidades de tu organización. Solo debes cargar tu logotipo al sistema en los formatos permitidos durante la configuración.",
+    ],
+  },
+
+  {
+    question: "¿Qué métodos de pago aceptan?",
+    answers: [
+      "Tarjetas de crédito y débito (Visa, Mastercard, American Express).",
+    ],
+  },
+
+  {
+    question:
+      "¿Existen paquetes o descuentos para quienes que emiten grandes volúmenes de constancias?",
+    answers: [
+      "Sí, DC-3 Seguro ofrece paquetes y descuentos especiales para empresas que necesitan emitir un alto volumen de constancias (más de 500). Estos paquetes están diseñados para optimizar costos y brindar mayor flexibilidad a organizaciones que gestionan múltiples capacitaciones.",
+    ],
+  },
+
+  {
+    question: "Beneficios de los paquetes",
+    answers: [
+      "Descuentos escalonados: Reducción progresiva en el costo por constancia a medida que aumenta el volumen.",
+      "Planes personalizados: Opciones adaptadas según las necesidades específicas de cada empresa.",
+      "Soporte prioritario: Atención dedicada para empresas con grandes requerimientos.",
+    ],
+  },
+];
