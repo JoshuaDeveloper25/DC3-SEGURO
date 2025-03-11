@@ -1,6 +1,12 @@
 @import "tailwindcss";
 @layer components;
 
+body {
+  font-family: Satoshi, sans-serif;
+  background-color: #f1f5f9;
+  color: #64748b;
+}
+
 /* Custom variant for dark mode */
 @custom-variant dark (&:where(.dark, .dark *));
 

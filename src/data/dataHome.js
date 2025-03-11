@@ -1,24 +1,24 @@
 export const navLinks = [
   {
-    styles: "text-black dark:text-white",
+    styles: "text-[#1c2434] dark:text-white",
     text: "Beneficios",
     link: "#advantages",
   },
 
   {
-    styles: "text-black dark:text-white",
+    styles: "text-[#1c2434] dark:text-white",
     text: "Paquetes",
     link: "#prices",
   },
 
   {
-    styles: "text-black dark:text-white",
+    styles: "text-[#1c2434] dark:text-white",
     text: "Preguntas",
     link: "#faq",
   },
 
   {
-    styles: "text-black dark:text-white",
+    styles: "text-[#1c2434] dark:text-white",
     text: "Contacto",
     link: "#contact",
   },

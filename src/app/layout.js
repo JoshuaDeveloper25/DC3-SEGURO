@@ -1,4 +1,3 @@
-import { InterFont } from "@/src/ui/font";
 import "./globals.css";
 
 export const metadata = {
@@ -10,10 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
-      <body
-        className={`${InterFont.className} antialiased dark:bg-[#1a222c] dark:text-[#aeb7c0]`}
-      >
-        {children}
+      <body>
+        <main className="dark:bg-[#1a222c] dark:text-[#aeb7c0]">
+          {children}
+        </main>
       </body>
     </html>
   );

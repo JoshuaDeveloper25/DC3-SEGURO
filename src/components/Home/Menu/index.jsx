@@ -11,7 +11,7 @@ import LogoDark from "@/public/logos/logo-dark.png";
 
 const Menu = () => {
   return (
-    <nav className="flex justify-between shadow-sm dark:bg-[#24303f] md:px-6 2xl:px-11 p-4">
+    <nav className="flex justify-between shadow-sm bg-white dark:bg-[#24303f] md:px-6 2xl:px-11 p-4">
       <div>
         <Image
           className="w-32 hidden dark:block"
