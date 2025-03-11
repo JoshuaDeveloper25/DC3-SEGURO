@@ -2,25 +2,25 @@ export const navLinks = [
   {
     text: "Beneficios",
     link: "#advantages",
-    styles: "text-black dark:text-white hover:text-primary transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary hover:after:w-full after:transition-all after:duration-300"
+    styles: "text-black dark:text-white"
   },
 
   {
     text: "Paquetes",
     link: "#prices",
-    styles: "text-black dark:text-white hover:text-primary transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary hover:after:w-full after:transition-all after:duration-300"
+    styles: "text-black dark:text-white"
   },
 
   {
     text: "Preguntas",
     link: "#faq",
-    styles: "text-black dark:text-white hover:text-primary transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary hover:after:w-full after:transition-all after:duration-300"
+    styles: "text-black dark:text-white"
   },
 
   {
     text: "Contacto",
     link: "#contact",
-    styles: "text-black dark:text-white hover:text-primary transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary hover:after:w-full after:transition-all after:duration-300"
+    styles: "text-black dark:text-white"
   },
   
   {

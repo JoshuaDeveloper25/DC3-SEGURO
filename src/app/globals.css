@@ -60,3 +60,13 @@
   background-color: rgb(36 48 63 / var(--tw-bg-opacity));
   --tw-bg-opacity: 1;
 }
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 72 115 / var(--tw-bg-opacity));
+}
+
+.bg-stroke {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity))
+}

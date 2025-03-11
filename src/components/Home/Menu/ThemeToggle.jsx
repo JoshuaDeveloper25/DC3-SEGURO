@@ -32,7 +32,11 @@ const ThemeToggle = () => {
             type="checkbox"
           />
 
-          <span className="absolute top-1/2 left-[3px] flex h-6 w-6 -translate-y-1/2 translate-x-0 items-center justify-center rounded-full bg-white shadow-sm duration-75 ease-linear">
+          <span
+            className={`${
+              isDarkMode ? "right-[3px]" : "left-[3px]"
+            } absolute top-1/2 flex h-6 w-6 -translate-y-1/2 translate-x-0 items-center justify-center rounded-full bg-white shadow-sm duration-75 ease-linear`}
+          >
             {isDarkMode ? (
               <MoonIcon fillColor={"fill-[#969AA1]"} />
             ) : (
