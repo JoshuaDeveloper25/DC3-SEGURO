@@ -1,10 +1,13 @@
 "use client";
 
 import { navLinks } from "@/src/data/dataHome";
-import { useEffect, useState } from "react";
 import ThemeToggle from "./ThemeToggle";
 
+// External imports
+import { motion, AnimatePresence } from "framer-motion";
+
 // React imports
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,6 +17,7 @@ import LogoDark from "@/public/logos/logo-dark.png";
 
 const Menu = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [openHamMenu, setOpenHamMenu] = useState(false);
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
@@ -44,7 +48,6 @@ const Menu = () => {
 
         <Image className="w-32 dark:hidden" src={LogoLight} alt="Logo Light" />
       </div>
-
       <ul className="md:flex hidden items-center gap-8">
         {navLinks?.map((navLink) => (
           <li className={navLink?.styles} key={navLink?.link}>
@@ -52,8 +55,48 @@ const Menu = () => {
           </li>
         ))}
       </ul>
+      <div className="flex justify-center items-center gap-6">
+        <ThemeToggle />
 
-      <ThemeToggle />
+        <div className="md:hidden block">
+          <button
+            onClick={() => setOpenHamMenu(!openHamMenu)}
+            className="btn"
+            type="button"
+          >
+            {openHamMenu ? (
+              <i class="bi bi-x-lg text-4xl"></i>
+            ) : (
+              <i className="bi bi-list text-4xl"></i>
+            )}
+          </button>
+        </div>
+      </div>
+
+      {/* HAM BURGUER DISPLAY */}
+      <AnimatePresence>
+        {openHamMenu && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            className="md:hidden absolute top-full left-0 w-full bg-white dark:bg-[#24303f] shadow-lg"
+          >
+            <ul className="flex flex-col items-center gap-4 py-4">
+              {navLinks?.map((navLink) => (
+                <li className={navLink?.styles} key={navLink?.link}>
+                  <Link
+                    href={navLink?.link}
+                    onClick={() => setOpenHamMenu(false)}
+                  >
+                    {navLink?.text}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </nav>
   );
 };
