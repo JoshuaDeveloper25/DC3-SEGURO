@@ -64,7 +64,7 @@ export const advantages = [
     icon: <i className="bi-speedometer2"></i>,
     title: "Fácil de usar",
     description:
-      "Uno de los objetivos principales de DC3 Seguro es que su utilización sea lo más simple posible.",
+      "Uno de los objetivos principales de DIGIFILL es que su utilización sea lo más simple posible.",
   },
 
   {

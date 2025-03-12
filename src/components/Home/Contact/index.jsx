@@ -46,7 +46,7 @@ const Contact = () => {
               Correo Electronico
             </h4>
 
-            <p>dc3seguro@outlook.com</p>
+            <p>digifill@outlook.com</p>
           </motion.div>
 
           <motion.div

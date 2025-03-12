@@ -2,9 +2,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./globals.css";
 
 export const metadata = {
-  title: "DC3 Seguro",
+  title: "DIGIFILL",
   description:
-    "¡Bienvenidos a DC-3 Seguro! La manera más fácil y rápida de generar tus constancias de habilidades (DC-3).",
+    "¡Bienvenidos a DIGIFILL! La manera más fácil y rápida de generar tus constancias de habilidades.",
 };
 
 export default function RootLayout({ children }) {
