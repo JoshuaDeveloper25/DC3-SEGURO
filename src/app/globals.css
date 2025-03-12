@@ -8,6 +8,7 @@ html {
 body {
   font-family: Satoshi, sans-serif;
   background-color: #f1f5f9;
+  overflow-x: hidden;
   color: #64748b;
 }
 
