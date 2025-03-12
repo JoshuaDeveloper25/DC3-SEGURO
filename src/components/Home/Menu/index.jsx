@@ -35,7 +35,7 @@ const Menu = () => {
 
   return (
     <nav
-      className={`flex justify-between shadow-sm bg-white dark:bg-[#24303f] md:px-6 2xl:px-11 p-4 fixed z-50 w-full top-0 transition-transform duration-300 ${
+      className={`flex justify-between shadow-sm bg-white dark:bg-[#24303f] md:px-6 2xl:px-11 p-4 py-2 fixed z-50 w-full top-0 transition-transform duration-300 ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
@@ -65,7 +65,7 @@ const Menu = () => {
             type="button"
           >
             {openHamMenu ? (
-              <i class="bi bi-x-lg text-4xl"></i>
+              <i className="bi bi-x-lg text-4xl"></i>
             ) : (
               <i className="bi bi-list text-4xl"></i>
             )}
