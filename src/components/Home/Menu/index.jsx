@@ -40,13 +40,19 @@ const Menu = () => {
       }`}
     >
       <div>
-        <Image
-          className="w-32 hidden dark:block"
-          src={LogoDark}
-          alt="Logo Dark"
-        />
+        <Link href={"#"}>
+          <Image
+            className="w-32 hidden dark:block"
+            src={LogoDark}
+            alt="Logo Dark"
+          />
 
-        <Image className="w-32 dark:hidden" src={LogoLight} alt="Logo Light" />
+          <Image
+            className="w-32 dark:hidden"
+            src={LogoLight}
+            alt="Logo Light"
+          />
+        </Link>
       </div>
       <ul className="md:flex hidden items-center gap-8">
         {navLinks?.map((navLink) => (

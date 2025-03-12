@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
       <body>
-        <main className="dark:bg-primary-1 dark:text-primary-2/60">
+        <main className="dark:bg-primary-1/95 dark:text-primary-2/60">
           {children}
         </main>
       </body>

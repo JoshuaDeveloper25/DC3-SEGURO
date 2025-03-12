@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <section className="py-20 dark:bg-primary-1" id="contact">
+    <section id="contact" className="py-20 dark:bg-primary-1/20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <motion.h2

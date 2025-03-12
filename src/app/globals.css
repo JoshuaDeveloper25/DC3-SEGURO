@@ -7,9 +7,9 @@ html {
 
 body {
   font-family: Satoshi, sans-serif;
+  color: var(--color-primary-6);
   background-color: #f1f5f9;
   overflow-x: hidden;
-  color: #64748b;
 }
 
 /* Typewriter styles */
@@ -29,7 +29,7 @@ body {
 
 /* Utilites */
 .font-times-new-roman {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   letter-spacing: 3px;
 }
 
