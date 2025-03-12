@@ -27,6 +27,12 @@ body {
   animation: blink 1s steps(2, start) infinite;
 }
 
+/* Utilites */
+.font-times-new-roman {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 3px;
+}
+
 /* Custom variant for dark mode */
 @custom-variant dark (&:where(.dark, .dark *));
 

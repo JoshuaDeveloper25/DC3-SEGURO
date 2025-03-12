@@ -29,7 +29,7 @@ const FAQ = () => {
               ease: "linear",
             }}
             viewport={{ once: true }}
-            className="text-3xl font-bold text-primary-9 dark:text-white mb-4"
+            className="md:text-4xl text-3xl font-bold text-primary-9 dark:text-white mb-4 font-times-new-roman"
           >
             Preguntas Frecuentes
           </motion.h2>
