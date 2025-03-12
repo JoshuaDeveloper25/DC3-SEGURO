@@ -38,15 +38,14 @@ const Contact = () => {
             viewport={{ once: true }}
             className="text-center transform transition-all duration-300 ease-in-out"
           >
-            <div className="text-primary-3 text-3xl mb-4">
-              <i className="bi bi-envelope"></i>
-            </div>
-
-            <h4 className="text-lg font-semibold text-primary-9 dark:text-white mb-2">
-              Correo Electronico
+            <h4 className="text-lg font-semibold text-primary-9 dark:text-white">
+              Correo Electrónico:
             </h4>
 
-            <p>digifill@outlook.com</p>
+            <p className="flex justify-center items-center gap-2">
+              <i className="bi bi-envelope text-primary-3 text-2xl"></i>
+              digifill@outlook.com
+            </p>
           </motion.div>
 
           <motion.div
@@ -60,19 +59,18 @@ const Contact = () => {
             viewport={{ once: true }}
             className="text-center transform transition-all duration-300 ease-in-out"
           >
-            <div className="text-primary-3 text-3xl mb-4">
-              <i className="bi bi-phone"></i>
-            </div>
-
             <Link
-              className="text-lg font-semibold text-primary-9 dark:text-white mb-2"
+              className="text-lg font-semibold text-primary-9 dark:text-white"
               href="https://wa.me/524427845143"
               target="_blank"
             >
-              Telefono Celular &amp; WhatsApp
+              Telefono Celular &amp; WhatsApp:
             </Link>
 
-            <p>+52 442 784 5143</p>
+            <p className="flex justify-center items-center gap-2">
+              <i className="bi bi-phone text-primary-3 text-2xl"></i>
+              +52 442 784 5143
+            </p>
           </motion.div>
         </div>
       </div>
