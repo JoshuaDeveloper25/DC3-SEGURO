@@ -61,6 +61,7 @@ const Menu = () => {
           </li>
         ))}
       </ul>
+
       <div className="flex justify-center items-center gap-6">
         <ThemeToggle />
 
@@ -70,15 +71,21 @@ const Menu = () => {
             className="btn"
             type="button"
           >
-            {openHamMenu ? (
-              <i className="bi bi-x-lg text-4xl"></i>
-            ) : (
-              <i className="bi bi-list text-4xl"></i>
-            )}
+            <motion.div
+              key={openHamMenu ? "close" : "menu"}
+              initial={{ opacity: 0, rotate: 0 }}
+              animate={{ opacity: 1, rotate: openHamMenu ? 90 : 0 }}
+              transition={{ duration: 0.3, ease: "easeInOut" }}
+            >
+              {openHamMenu ? (
+                <i className="bi bi-x-lg text-4xl"></i>
+              ) : (
+                <i className="bi bi-list text-4xl"></i>
+              )}
+            </motion.div>
           </button>
         </div>
       </div>
-
       {/* HAM BURGUER DISPLAY */}
       <AnimatePresence>
         {openHamMenu && (
