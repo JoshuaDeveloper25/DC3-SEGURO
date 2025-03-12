@@ -35,7 +35,7 @@ const ThemeToggle = () => {
   return (
     <div className="flex items-center gap-2">
       <label
-        className={`relative m-0 block h-7.5 w-14 rounded-full bg-[#e2e8f0] dark:bg-[#094873]`}
+        className={`relative m-0 block h-7.5 w-14 rounded-full bg-primary-2/50 dark:bg-primary-10`}
       >
         <input
           className="absolute top-0 z-50 m-0 h-full w-full cursor-pointer opacity-0"
@@ -50,9 +50,9 @@ const ThemeToggle = () => {
           } absolute top-1/2 flex h-6 w-6 -translate-y-1/2 translate-x-0 items-center justify-center rounded-full bg-white shadow-lg duration-75 ease-linear`}
         >
           {isDarkMode ? (
-            <MoonIcon fillColor={"fill-[#969AA1]"} />
+            <MoonIcon fillColor={"fill-primary-4"} />
           ) : (
-            <SunIcon fillColor={"fill-[#969AA1]"} />
+            <SunIcon fillColor={"fill-primary-4"} />
           )}
         </span>
       </label>

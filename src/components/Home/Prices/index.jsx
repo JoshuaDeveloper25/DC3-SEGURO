@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Prices = () => {
   return (
-    <section id="prices" className="py-20 dark:bg-[#1a222c]">
+    <section id="prices" className="py-20 dark:bg-primary-1">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <motion.h2
@@ -22,7 +22,7 @@ const Prices = () => {
               ease: "linear",
             }}
             viewport={{ once: true }}
-            className="text-3xl font-bold text-[#1c2434] dark:text-white mb-4"
+            className="text-3xl font-bold text-primary-9 dark:text-white mb-4"
           >
             Nuestros Precios
           </motion.h2>
@@ -39,14 +39,14 @@ const Prices = () => {
                 ease: "linear",
               }}
               viewport={{ once: true }}
-              className="bg-white dark:bg-[#24303f] rounded-lg shadow-lg p-10 transform transition-all duration-300 ease-in-out hover:shadow-xl hover:bg-[#0948730d] hover:bg-opacity-5 dark:hover:bg-[#0948731a] dark:hover:bg-opacity-10"
+              className="bg-white dark:bg-primary-4/5 rounded-lg shadow-lg p-10 transform transition-all duration-300 ease-in-out hover:shadow-xl hover:bg-primary-3/20 hover:bg-opacity-5 dark:hover:bg-primary-4/20 dark:hover:bg-opacity-10"
               key={price?.title}
             >
-              <h3 className="text-xl font-bold text-[#1c2434] dark:text-white mb-4">
+              <h3 className="text-xl font-bold text-primary-9 dark:text-white mb-4">
                 {price?.title}
               </h3>
 
-              <div className="text-3xl font-bold text-[#094873] mb-6">
+              <div className="text-3xl font-bold text-primary-3 mb-6">
                 ${price?.price}
                 <span className="text-sm">+IVA</span>
               </div>
@@ -54,7 +54,7 @@ const Prices = () => {
               <ul className="space-y-3 mb-8">
                 {price?.details?.map((priceDetail) => (
                   <li key={priceDetail} className="flex items-center">
-                    <i className="bi bi-check2 text-[#094873] mr-2"></i>{" "}
+                    <i className="bi bi-check2 text-primary-3 mr-2"></i>{" "}
                     {priceDetail}
                   </li>
                 ))}

@@ -17,7 +17,7 @@ const FAQ = () => {
   };
 
   return (
-    <section id="faq" className="py-20 bg-white dark:bg-[#24303f]">
+    <section id="faq" className="py-20 bg-white dark:bg-primary-1">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <motion.h2
@@ -29,7 +29,7 @@ const FAQ = () => {
               ease: "linear",
             }}
             viewport={{ once: true }}
-            className="text-3xl font-bold text-[#1c2434] dark:text-white mb-4"
+            className="text-3xl font-bold text-primary-9 dark:text-white mb-4"
           >
             Preguntas Frecuentes
           </motion.h2>
@@ -46,7 +46,7 @@ const FAQ = () => {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto"
         >
-          <div className="rounded-sm border border-[#e2e8f0] bg-white shadow-lg dark:border-[#2e3a47] dark:bg-[#24303f]">
+          <div className="bg-white dark:bg-primary-1">
             <div className="flex flex-col gap-7.5">
               {faqs?.map((faq, index) => (
                 <IndividualQuestion

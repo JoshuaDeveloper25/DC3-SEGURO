@@ -36,11 +36,11 @@ const Header = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-[800px] mx-auto text-center md:space-y-12 space-y-4"
         >
-          <h1 className="text-[#094873] text-4xl sm:text-5xl md:text-6xl font-[600]">
+          <h1 className="text-primary-3 text-4xl sm:text-5xl md:text-6xl font-[600]">
             ¡Bienvenidos a Digifill!
           </h1>
 
-          <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-[600] leading-10 text-[#1c2434] dark:text-white">
+          <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-[600] leading-10 text-primary-9 dark:text-white">
             La manera más fácil y rápida de generar tus constancias de
             habilidades.
           </h4>

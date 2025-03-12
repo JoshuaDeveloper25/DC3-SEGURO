@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <section className="py-20 dark:bg-[#1a222c]" id="contact">
+    <section className="py-20 dark:bg-primary-1" id="contact">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <motion.h2
@@ -20,7 +20,7 @@ const Contact = () => {
               ease: "linear",
             }}
             viewport={{ once: true }}
-            className="text-3xl font-bold text-[#1c2434] dark:text-white mb-4"
+            className="text-3xl font-bold text-primary-9 dark:text-white mb-4"
           >
             Contacto
           </motion.h2>
@@ -38,11 +38,11 @@ const Contact = () => {
             viewport={{ once: true }}
             className="text-center transform transition-all duration-300 ease-in-out"
           >
-            <div className="text-[#094873] text-3xl mb-4">
+            <div className="text-primary-3 text-3xl mb-4">
               <i className="bi bi-envelope"></i>
             </div>
 
-            <h4 className="text-lg font-semibold text-[#1c2434] dark:text-white mb-2">
+            <h4 className="text-lg font-semibold text-primary-9 dark:text-white mb-2">
               Correo Electronico
             </h4>
 
@@ -60,12 +60,12 @@ const Contact = () => {
             viewport={{ once: true }}
             className="text-center transform transition-all duration-300 ease-in-out"
           >
-            <div className="text-[#094873] text-3xl mb-4">
+            <div className="text-primary-3 text-3xl mb-4">
               <i className="bi bi-phone"></i>
             </div>
 
             <Link
-              className="text-lg font-semibold text-[#1c2434] dark:text-white mb-2"
+              className="text-lg font-semibold text-primary-9 dark:text-white mb-2"
               href="https://wa.me/524427845143"
               target="_blank"
             >

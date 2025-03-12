@@ -1,24 +1,24 @@
 export const navLinks = [
   {
-    styles: "text-[#1c2434] dark:text-white hover:text-[#094873] dark:hover:text-white transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#094873] hover:after:w-full after:transition-all after:duration-300",
+    styles: "text-primary-9 dark:text-white hover:text-primary-3 dark:hover:text-white transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-3 hover:after:w-full after:transition-all after:duration-300",
     text: "Beneficios",
     link: "#advantages",
   },
 
   {
-    styles: "text-[#1c2434] dark:text-white hover:text-[#094873] dark:hover:text-white transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#094873] hover:after:w-full after:transition-all after:duration-300",
+    styles: "text-primary-9 dark:text-white hover:text-primary-3 dark:hover:text-white transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-3 hover:after:w-full after:transition-all after:duration-300",
     text: "Paquetes",
     link: "#prices",
   },
 
   {
-    styles: "text-[#1c2434] dark:text-white hover:text-[#094873] dark:hover:text-white transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#094873] hover:after:w-full after:transition-all after:duration-300",
+    styles: "text-primary-9 dark:text-white hover:text-primary-3 dark:hover:text-white transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-3 hover:after:w-full after:transition-all after:duration-300",
     text: "Preguntas",
     link: "#faq",
   },
 
   {
-    styles: "text-[#1c2434] dark:text-white hover:text-[#094873] dark:hover:text-white transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#094873] hover:after:w-full after:transition-all after:duration-300",
+    styles: "text-primary-9 dark:text-white hover:text-primary-3 dark:hover:text-white transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-3 hover:after:w-full after:transition-all after:duration-300",
     text: "Contacto",
     link: "#contact",
   },

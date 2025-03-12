@@ -35,7 +35,7 @@ const Menu = () => {
 
   return (
     <nav
-      className={`flex justify-between shadow-sm bg-white dark:bg-[#24303f] md:px-6 2xl:px-11 p-4 py-2 fixed z-50 w-full top-0 transition-transform duration-300 ${
+      className={`flex justify-between shadow-sm bg-white dark:bg-primary-1 md:px-6 2xl:px-11 p-4 py-0 fixed z-50 w-full top-0 transition-transform duration-300 ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
@@ -80,7 +80,7 @@ const Menu = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="md:hidden absolute top-full left-0 w-full bg-white dark:bg-[#24303f] shadow-lg"
+            className="md:hidden absolute top-full left-0 w-full bg-white dark:bg-primary-1 shadow-lg"
           >
             <ul className="flex flex-col items-center gap-4 py-4">
               {navLinks?.map((navLink) => (

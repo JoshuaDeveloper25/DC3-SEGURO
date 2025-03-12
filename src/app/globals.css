@@ -67,6 +67,6 @@ body {
   }
 
   .btn-primary {
-    @apply bg-[#094873] text-white;
+    @apply bg-primary-3 dark:bg-primary-10 text-white;
   }
 }
