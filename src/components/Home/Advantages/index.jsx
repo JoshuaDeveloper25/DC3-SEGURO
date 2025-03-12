@@ -18,7 +18,7 @@ const Advantages = () => {
             ease: "linear",
           }}
           viewport={{ once: true }}
-          className="text-3xl font-bold text-black dark:text-white mb-4"
+          className="text-3xl font-bold text-[#1c2434] dark:text-white mb-4"
         >
           Algunos Beneficios
         </motion.h2>
