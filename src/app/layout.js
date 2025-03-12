@@ -2,7 +2,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./globals.css";
 
 export const metadata = {
-  title: "DIGIFILL",
+  title: "D I G I F I L L",
   description:
     "¡Bienvenidos a DIGIFILL! La manera más fácil y rápida de generar tus constancias de habilidades.",
 };

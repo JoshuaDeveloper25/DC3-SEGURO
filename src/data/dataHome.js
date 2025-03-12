@@ -35,7 +35,7 @@ export const definitionsApp = [
     icon: <i className="bi-graph-up-arrow"></i>,
     title: "Mayor Productividad",
     description:
-      "No pierdas tiempo con otras herramientas. Genera de forma rápida tus constancias de habilidad (DC-3).",
+      "No pierdas tiempo con otras herramientas. Genera de forma rápida tus constancias de habilidad.",
   },
 
   {
@@ -78,7 +78,7 @@ export const advantages = [
     icon: <i className="bi-graph-up"></i>,
     title: "Información histórica",
     description:
-      "Podrás consultar cualquier constancia de habilidad (DC-3) que hayas generado en el ultimo año.",
+      "Podrás consultar cualquier constancia de habilidad que hayas generado en el ultimo año.",
   },
 
   {
@@ -160,7 +160,7 @@ export const prices = [
 export const faqs = [
   {
     question:
-      "¿Qué beneficios ofrece la automatización de constancias de habilidad (DC-3)?",
+      "¿Qué beneficios ofrece la automatización de constancias de habilidad?",
     answers: [
       "Ahorro de tiempo: Genera constancias en cuestión de minutos.",
       "Reducción de errores: La automatización minimiza riesgos de inconsistencias o errores de formato.",
