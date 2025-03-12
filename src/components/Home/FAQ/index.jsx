@@ -35,30 +35,21 @@ const FAQ = () => {
           </motion.h2>
         </div>
 
-        <motion.main
-          initial={{ opacity: 0, y: 100 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.3,
-            ease: "linear",
-          }}
-          viewport={{ once: true }}
-          className="max-w-4xl mx-auto"
-        >
-          <div className="bg-white dark:bg-primary-1">
-            <div className="flex flex-col gap-7.5">
-              {faqs?.map((faq, index) => (
-                <IndividualQuestion
-                  onToggle={() => handleToggle(index)}
-                  isOpen={openIndex === index}
-                  key={faq.question}
-                  faq={faq}
-                />
-              ))}
+        <main className="max-w-4xl mx-auto">
+            <div className="bg-white dark:bg-primary-1">
+              <div className="flex flex-col gap-7.5">
+                {faqs?.map((faq, index) => (
+                  <IndividualQuestion
+                    onToggle={() => handleToggle(index)}
+                    isOpen={openIndex === index}
+                    key={faq.question}
+                    index={index}
+                    faq={faq}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
-        </motion.main>
+        </main>
       </div>
     </section>
   );

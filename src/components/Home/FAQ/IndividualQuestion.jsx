@@ -1,11 +1,21 @@
+// External imports
+import { motion } from "framer-motion";
+
 // Icons
 import { AddIcon, SubtractIcon } from "../../Icons";
 
-const IndividualQuestion = ({ faq, isOpen, onToggle }) => {
+const IndividualQuestion = ({ faq, isOpen, onToggle, index }) => {
   return (
-    <article
+    <motion.article
       className="rounded-md border border-primary-2/50 p-4 dark:border-primary-9 dark:shadow-none md:p-6 xl:p-7.5"
-      key={faq?.question}
+      initial={{ opacity: 0, y: 100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 0.3,
+        delay: (index + 1) * 0.1,
+        ease: "linear",
+      }}
+      viewport={{ once: true }}
     >
       <button
         className="btn flex w-full items-center justify-between gap-2"
@@ -44,7 +54,7 @@ const IndividualQuestion = ({ faq, isOpen, onToggle }) => {
           </ul>
         </div>
       )}
-    </article>
+    </motion.article>
   );
 };
 
