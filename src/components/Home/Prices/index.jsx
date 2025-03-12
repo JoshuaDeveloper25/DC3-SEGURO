@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Prices = () => {
   return (
-    <section id="prices" className="py-20 bg-gray-50 dark:bg-[#1a222c]">
+    <section id="prices" className="py-20 dark:bg-[#1a222c]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <motion.h2
